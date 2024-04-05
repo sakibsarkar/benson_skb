@@ -5,7 +5,7 @@ const Token = () => {
         Based Benson&apos;s <br />
         Tokenomics
       </h1>
-      <div className="mt-[64px] bg-white rounded-[40px] max-w-[985px] mx-auto border-[4px] border-action pt-[93px] pb-[94px] min-h-[611px] lg:max-h-[611px] px-[88px]  relative top-[-5px] left-[5px]">
+      <div className="mt-[64px] bg-white rounded-[40px] max-w-[985px] mx-auto border-[4px] border-action pt-[93px] pb-[94px] min-h-[611px] lg:max-h-[611px] px-[88px]  relative top-[-10px] left-[5px]">
         <div className="grid grid-cols-[repeat(2,390px)] gap-x-[30px] gap-y-[27px] left-[-5px] top-[-4px] relative">
           <div className="bg-primary h-[200px] text-white px-[56px] py-[42px] border-[4px] border-action rounded-[30px] flex flex-col items-center justify-center">
             <h1 className="text-[48px] leading-[58px]">Total Supply</h1>
@@ -25,7 +25,7 @@ const Token = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center mt-[64px] relative left-[4px] top-[-5px]">
+      <div className="flex justify-center mt-[64px] relative left-[4px] top-[-9px]">
         <button className="pt-[13px] pb-[17px] min-w-[235px] text-[24px] leading-normal rounded-[12px] bg-action text-white">
           See the Charts
         </button>

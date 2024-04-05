@@ -15,7 +15,7 @@ const About = () => {
         <br />
         <p>Nala, the richest cat, stands in the way.</p>
       </div>
-      <button className="text-[24px] leading-normal rounded-[12px] lg:w-[208px] p-5 lg:p-0 lg:h-[68px] bg-action text-white">
+      <button className="text-[24px] leading-normal rounded-[12px] lg:w-[208px] p-5 lg:p-0 lg:h-[68px] bg-action text-white relative top-[-3px]">
         Buy $BENSON
       </button>
       <div className="absolute right-[-60px] bottom-[40px]">

@@ -16,7 +16,7 @@ const Note = () => {
         <div className="absolute z-40 right-[-276px] bottom-[270px]">
           <Image src="/img/note-1.png" alt="mew 1" height="351" width="350" />
         </div>
-        <div className="absolute left-[-201px] bottom-[84px] -z-10">
+        <div className="absolute left-[-201px] bottom-[90px] -z-10">
           <Image src="/img/note-2.png" alt="mew 2" height="300" width="300" />
         </div>{" "}
         <div className="absolute z-50 top-[-52px] left-[-6px] text-[128px] leading-[32px] text-action opacity-70">
@@ -37,7 +37,7 @@ const Note = () => {
           </p>
         </div>
         <div className="flex justify-center mt-[105px]">
-          <button className="text-[24px] leading-normal rounded-[12px] py-[13px] w-[235px]  bg-action text-white relative top-[14px] left-[-6px]">
+          <button className="text-[24px] leading-normal rounded-[12px] py-[13px] w-[235px]  bg-action text-white relative top-[8px] left-[-6px]">
             Spread the word!
           </button>
         </div>
