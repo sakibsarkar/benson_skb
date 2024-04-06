@@ -8,15 +8,17 @@ import Token from "@/components/ui/Token";
 
 const Home = () => {
   return (
-    <main>
-      <Header />
-      <About />
-      <Note />
-      <Buy />
-      <Token />
-      <DexBox />
-      <Footer />
-    </main>
+    <>
+      <main className="container">
+        <Header />
+        <About />
+        <Note />
+        <Buy />
+        <Token />
+        <DexBox />
+      </main>
+        <Footer />
+    </>
   );
 };
 

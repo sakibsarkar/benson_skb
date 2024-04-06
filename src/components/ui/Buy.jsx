@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const Buy = () => {
   return (
-    <section className="lg:mt-[392px] container relative mb-[251px]">
-      <h1 className="text-[60px] leading-[65px] text-white text-center">
+    <section className="lg:mt-[392px] container relative lg:mb-[251px]">
+      <h1 className="text-[30px] md:text-[40px] lg:text-[60px] text-center leading-[65px] text-white">
         How To Buy
       </h1>
-      <div className="max-w-[985px] mx-auto bg-white border-[4px] border-action px-[48px] pt-[50px] pb-[49px] mt-[14px] text-[24px] rounded-[40px] relative left-[11px] leading-[32px]">
+      <div className="max-w-[985px] mx-auto bg-white border-[4px] border-action px-[20px] md:px-[48px] pt-[50px] pb-[49px] mt-[14px] text-[24px] rounded-[40px] relativelg:left-[11px] leading-[32px] flex flex-col justify-center items-center lg:inline-block w-[90%] md:w-[unset]">
         <ol className="w-full pl-[30px] list-decimal">
           <li>
             Set up a crypto wallet with access to the Base network. Coinbase
@@ -37,7 +37,7 @@ const Buy = () => {
         </ol>
       </div>
 
-      <div className="absolute bottom-[-248px] left-[194px]">
+      <div className="hidden md:flex absolute bottom-[-248px] left-[194px]">
         <Image src="/img/buy.png" alt="Buy" height="350" width="350" />
       </div>
     </section>
